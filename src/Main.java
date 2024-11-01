@@ -52,9 +52,9 @@ public class Main {
         } else {
             try {
                 sum = Integer.parseInt(finalNumbers);
-                if (sum <= 10) {
+                if (sum <= 10 && sum > 0) {
                     return checkСharacterСount(first, second, result, operator, sum);
-                } else if (sum > 10) {
+                } else if (sum > 10 || sum < 1 ) {
                     throw new RuntimeException();
                 }
             } catch (Exception e) {
