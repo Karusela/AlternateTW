@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите задачу в следующем порядке:\nСтрока (в кавычках), оператор, строка (в кавычках) или цифра до 10:");
+        System.out.println("Введите задачу в следующем порядке:\nСтрока (в кавычках), оператор, строка (в кавычках) или цифра от 1 до 10:");
         String string = scanner.nextLine();
         String result = analys(string);
         System.out.println("Результат: " + '"' + result + '"');
