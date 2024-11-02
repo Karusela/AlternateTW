@@ -128,6 +128,8 @@ public class Main {
             for (String word : words) {
                 if (!word.equals(phrase2)) {
                     fin.append(word).append(' ');
+                } else {
+                    fin.append(' ');
                 }
             }
             if (fin.length() > 0) {
